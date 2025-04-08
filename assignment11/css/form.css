@@ -19,7 +19,7 @@ div#formcol1 {
 /* end of form css */
 	
 
-label {
+#formcol1 label {
 	margin-right: .3em;
 	width: 6.3em; /* I made this deliberately wide – come up with your own
 	optimal width */
@@ -30,4 +30,14 @@ label {
 
 #formcol1 li {
 	list-style:none;
+	}
+
+
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: #BB3D2F !important;}
+
+#formcol1 input.reqfield {
+	background:#FF9;
 	}
